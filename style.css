@@ -1,0 +1,57 @@
+/*componenetes de index.php*/
+
+#intro_login {
+	background-color: #A9D0F5;
+	height: 20px;
+	width: 140px;
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+#intro_login p {
+	font-size: 17px;
+	color: black;
+}
+
+#wrapper_login{
+ width: 1024px;
+ margin: 0px auto;
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ padding-top: 100px;
+}
+
+#form_login{
+	background-color: #FAAC58;
+	margin: 0px auto;
+	height: 250px;
+	width: 350px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+/*componenetes de crear_usuario.php*/
+
+#wrapper_crear_usuario{
+	width: 1024px;
+	margin: 0px auto;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 10px;
+	font-size: 13px;
+}
+
+#form_crear{
+	background-color: #D8D8D8;
+	margin: 0px auto;
+	height: 585px;
+	width: 350px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#link_volver{
+	text-align: right;
+	font-size: 12px;
+}
