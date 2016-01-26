@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Crear usuario</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
