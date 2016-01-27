@@ -1,0 +1,17 @@
+Repo GitHub:
+	https://github.com/vlorenzo34/PR04.git
+
+Hostinger:
+	
+	mycontacts.esy.es
+	Cuenta:
+		usuario: 93263.joan23@fje.edu
+		pass: c38a7h7d
+	
+		usuario: u643215434
+		pass: 1234567890!
+
+		BBDD:
+		user: admin
+		pass: 1234567890!
+
