@@ -17,7 +17,7 @@
 		?>
 	        <header id="header_main">
 	        	<button onclick="window.location.href='crear_contacto.php'">+ Añadir Contacto</button>
-	        	<button onclick="window.location.href='procs/logout.proc.php'">Cerrar Sesión</button>
+	        	<button onclick="window.location.href='proc/logout.proc.php'">Cerrar Sesión</button>
 	        	<button onclick="window.location.href='modificar_perfil.php'">Modificar Perfil</button>
 	        </header>
 	        <section class="cuerpo_section">
