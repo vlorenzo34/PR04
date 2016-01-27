@@ -18,7 +18,7 @@
 		//extraemos los datos de ese usuario para poder coger el nivel de acceso. no se hace en un bucle ya que, si no hay algún problema gordo, en la base de datos o hay un registro o no hay, no puede haber más de uno
 		$datos_usuario=mysqli_fetch_array($resultado);
 		//creamos la variable de sesión mail
-		$_SESSION['mail']=$_REQUEST['usu_mail'];
+		$_SESSION['mail']=$datos_usuario['usu_mail'];
 		$_SESSION['name']=$datos_usuario['usu_name'];
 		$_SESSION['level']=$datos_usuario['usu_level'];
 

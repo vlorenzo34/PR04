@@ -12,7 +12,7 @@
 	<body>
 		<?php
 		//AQUIIIIIIIIIIIIIIIIIIIIIIIIIII INVERTIIIIIIIIIIR EL ISSET CUANDO TENGAMOS SESSIONES WORKING!
-		if(!isset($_SESSION['mail'])){
+		if(isset($_SESSION['mail'])){
 			include("proc/connection.proc.php");
 		?>
 	        <header id="header_main">
