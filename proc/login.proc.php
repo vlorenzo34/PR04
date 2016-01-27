@@ -3,7 +3,7 @@
 	session_start();
 	
 	//Include archivo conexion a la BBDD.
-	include("conexion.proc.php");
+	include("connection.proc.php");
 
 	$pass_encriptada=md5($_REQUEST['pass']);
 

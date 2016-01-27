@@ -13,7 +13,7 @@
 		<?php
 		//AQUIIIIIIIIIIIIIIIIIIIIIIIIIII INVERTIIIIIIIIIIR EL ISSET CUANDO TENGAMOS SESSIONES WORKING!
 		if(!isset($_SESSION['mail'])){
-			include("procs/conexion.proc.php");
+			include("proc/connection.proc.php");
 		?>
 	        <header id="header_main">
 	        	<button onclick="window.location.href='crear_contacto.php'">+ Añadir Contacto</button>
