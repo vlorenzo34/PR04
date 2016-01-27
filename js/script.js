@@ -30,7 +30,7 @@ var validaFormulario=function(){
     if( valor == null || valor.length == 0 ) {
       document.getElementById("error_2").innerHTML = "Debe introducir la contraseña";
       devolver = false;
-    } else if ( valor.length >= 4 ) {
+    } else if( valor.length <= 4 ) {
       document.getElementById("error_2").style.display = "none";
       document.getElementById("error_22").innerHTML='La contraseña debe de ser mayor a 4 caracteres';
       devolver = false;
@@ -83,7 +83,7 @@ var validaFormulario=function(){
       document.getElementById("error_6").innerHTML = "Ha de rellenar el código postal";
       devolver = false;
     }
-    else if( !(/^\d{5}$/.test(valor)))  
+    else if(isNaN(valor))  
     {
       document.getElementById("error_6").style.display = "none";
       document.getElementById("error_66").innerHTML = "El código postal ha de ser numérico";
@@ -105,5 +105,5 @@ var validaFormulario=function(){
     }
     
   devolver = false; 
-  return devolver ;
+  return devolver;
 }

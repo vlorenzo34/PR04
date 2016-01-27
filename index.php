@@ -24,7 +24,7 @@
 				</div>
 			</header><br/><br/>
 			<div id="form_login">
-				<form action="login.php" method="POST">
+				<form action="proc/login.proc.php" method="POST">
 					<p>Email:</p>
 					<p><input id="name" style="width: 120px; height: 20px" name="mail" placeholder="ejemplo@gmail.com" type="text"></p>
 					<p>Contraseña:</p>

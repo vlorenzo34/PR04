@@ -3,22 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Crear usuario</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 <div id="wrapper_crear_usuario">
 	<div id="form_crear">
-		<form id="form_crear_usuario" action="" method="POST" onsubmit="return validaFormulario();">
+		<form id="form_crear_usuario" action="proc/crear_usuario.proc.php" method="POST" onsubmit="return validaFormulario();">
 			<p>Mail:</p>
 			<input id="val_mail" style="width: 120px; height: 20px" type="text" name="mail_usuario" size="15" maxlength="50">
 			<span id="error_1" class="error"></span>
 			<span id="error_11" class="error"></span>
 			<p>Password:</p>
-			<input id="val_pass" style="width: 120px; height: 17px" type="text" name="pass_usuario" size="15" maxlength="25">
+			<input id="val_pass" style="width: 120px; height: 17px" type="password" name="pass_usuario" size="15" maxlength="25">
 			<span id="error_2" class="error"></span>
-			<span id="error_22" class="error"></span>
-			<p>Nombre y Apellidos</p>
+			<p>Nombre</p>
 			<p><input id="val_nombre" style="width: 120px; height: 17px" type="text" name="nombre_usuario" size="15" maxlength="25"></p>
 			<span id="error_3" class="error"></span>
 			<p>Apellidos:</p>
@@ -35,7 +34,7 @@
 			<span id="error_6" class="error"></span>
 			<span id="error_66" class="error"></span>
 			<p>Ciudad:</p>
-			<p><input id="val_ciudad" style="width: 120px; height: 17px" type="text" name="cp_usuario" size="15" maxlength="25"></p>
+			<p><input id="val_ciudad" style="width: 120px; height: 17px" type="text" name="ciudad_usuario" size="15" maxlength="25"></p>
 			<span id="error_7" class="error"></span>
 			<p><input style="width: 122px; height: 25px" type="submit" value="Registrare!"></p>
 		</form>
