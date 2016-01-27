@@ -33,6 +33,11 @@
 
 /*componenetes de crear_usuario.php*/
 
+.error {
+	font-size: 12px;
+	color: red; 
+}
+
 #wrapper_crear_usuario{
 	width: 1024px;
 	margin: 0px auto;
