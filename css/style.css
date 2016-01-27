@@ -60,3 +60,23 @@
 	text-align: right;
 	font-size: 12px;
 }
+
+/*.lista_contacto {
+	background-color:orange;
+}
+
+.contact_mapa {
+	background-color:green;
+}
+
+#header_main {
+	background-color:red;
+}
+#logout {
+	font: bold 13px verdana, sans serif;
+	text-align: right;
+}
+*/
+.cuerpo_section {
+	width:100%;
+}
