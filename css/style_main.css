@@ -1,0 +1,75 @@
+/* CSS STYLE DE MAIN.PHP */
+.contenedor_central {
+	/*background-color: orange;*/
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+
+}
+
+.contactos {
+	width:20%;
+	/*background-color: green;*/
+	float:left;
+	margin-left: 5%;
+	border-style: solid;
+}
+
+.info_contactos {
+	width:60%;
+	/*background-color: red;*/
+	float:right;
+	margin-right: 5%;
+	border-style: solid;
+}
+
+#menu_contactos{
+	text-align: center;
+	
+}
+#menu_info_contactos{
+	text-align: center;
+
+}
+
+.contacto{
+	
+	width:90%;
+	margin-left: 5%;
+	margin-left:5%;
+	border-width: 4px;
+	text-align: center;
+}
+
+#tit_con{
+	font-size:25px;
+}
+
+#contenidoInfoContactos{
+	width:90%;
+}
+
+.muestra_contenido_contacto{
+	margin-left: 5%;
+	float:left;
+}
+
+#map{
+	/*background-color: orange;*/
+	height:100%;
+
+}
+
+#map2{
+	/*background-color: orange;*/
+	margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+
+#pie {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 1px solid #999999;
+
