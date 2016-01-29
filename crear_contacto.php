@@ -22,13 +22,10 @@
 			<p><input id="val_telef" style="width: 120px; height: 17px" type="text" name="telef1_contacto" size="15" maxlength="25"></p>
 			<p>Telefono 2:</p>
 			<p><input id="val_telef" style="width: 120px; height: 17px" type="text" name="telef2_contacto" size="15" maxlength="25"></p>
-			<p>Casa</p>
-			Latitud: <input disabled style="width: 60px; height: 17px" type="text" id="x" name="x_primera" /> Longitud: <input disabled style="width: 60px; height: 17px" type="text" id="y" name="y_primera"/>
-			<br/>
-			<p>Otra</p>
-			Latitud: <input disabled style="width: 60px; height: 17px" type="text" id="x2" name="x_segunda" /> Longitud: <input disabled style="width: 60px; height: 17px" type="text" id="y2" name="y_segunda"/>
-			<p>Código Postal:</p>
-			<p><input id="val_cp" style="width: 120px; height: 17px" type="text" name="cp_contacto" size="15" maxlength="25"></p>
+			<!-- Lat1 --><input hidden style="width: 60px; height: 17px" type="text" id="x" name="x_primera" />
+			<!-- Len1 --><input hidden style="width: 60px; height: 17px" type="text" id="y" name="y_primera"/>
+			<!-- Lat2 --><input hidden style="width: 60px; height: 17px" type="text" id="x2" name="x_segunda" />
+			<!-- Len2 --><input hidden style="width: 60px; height: 17px" type="text" id="y2" name="y_segunda"/>
 			<textarea name="comentarios" rows="5" cols="40">Comentarios</textarea>
 			<p><input style="width: 122px; height: 25px" type="submit" value="Añadir"></p>
 			<br/>
@@ -39,7 +36,7 @@
 		</form>
 		<div id="zona_mapa1">
 					<div>
-					      Dirección de casa: <input id="address" type="textbox" value="Barcelona, Cataluña" />
+					      Dirección de casa: <input id="address" type="textbox" value="Barcelona, Cataluña" /> (Campo obligatorio)
 					      <br/>
 					      <br/>
 					      <input type="button" value="Localizar" onclick="codeAddress()">
@@ -49,7 +46,7 @@
 		</div>
 		<div id="zona_mapa2">
 					<div>
-						Otra dirección: <input id="address2" type="textbox" value="Barcelona, Cataluña" />
+						Otra dirección: <input id="address2" type="textbox" value="Barcelona, Cataluña" /> (Campo opcional)
 						<br/>
 						<br/>
 						<input type="button" value="Localizar" onclick="codeAddress2()">
