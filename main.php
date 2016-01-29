@@ -18,10 +18,12 @@
 			include("proc/connection.proc.php");
 		?>
 	        <header id="header_main">
-	        	<button onclick="window.location.href='crear_contacto.php'">+ Añadir Contacto</button><br/>
-	        	<button onclick="window.location.href='modificar_perfil.php'">Modificar Perfil</button><br/>
-	        	<?php echo utf8_encode($_SESSION['name']); ?><br/><button onclick="window.location.href='proc/logout.proc.php'">Cerrar Sesión</button>
+	        	<a href="crear_contacto.php"><img id="anadir_contacto" src="img/anadir_contacto.png" alt="anadir"></a>
+	        	<a href="proc/logout.proc.php"><img id="cer_perf" src="img/cerrar_sesion.jpg" alt="cer_ses"></a>
+	        	<a href="modificar_perfil.php"><img id="mod_perf" src="img/modificar_perfil_contacto.png" alt="mod_perf"></a>
+	        	<br/><br/><br/><br/><div id="usu_nombre">Usuario: <?php echo utf8_encode($_SESSION['name']); ?></div><br/>
 	        </header>
+
 	        <section class="contenedor_central">
 		    	<section class="contactos">
 		    		<h1 id="menu_contactos">Contactos:</h1>

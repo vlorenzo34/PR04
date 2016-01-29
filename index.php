@@ -27,7 +27,8 @@
 		<div id="wrapper_login">
 			<header>
 				<div id="intro_login">
-					MyContacts
+					<p>MyContacts<p>
+					<img src="img/logo_mycontacts.png" alt="logo">
 				</div>
 			</header><br/><br/>
 			<div id="form_login">

@@ -75,9 +75,9 @@
 
 #intro_login {
 	background-color: #A9D0F5;
-	height: 20px;
+	height: 200px;
 	width: 140px;
-	padding: 10px;
+	padding: 5px;
 	margin: 0 auto;
 	border-radius: 10px;
 }
@@ -85,6 +85,12 @@
 #intro_login p {
 	font-size: 17px;
 	color: black;
+}
+
+#intro_login img {
+	width: 150px;
+	height: 150px;
+	margin-left: -6px;
 }
 
 #wrapper_login{

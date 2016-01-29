@@ -1,4 +1,28 @@
 /* CSS STYLE DE MAIN.PHP */
+#usu_nombre {
+	float: right;
+	margin-right: -50px;
+}
+
+#cer_perf {
+	width: 75px;
+	height: 75px;
+	float: right;
+}
+
+#mod_perf {
+	margin-top: 13px;
+	width: 50px;
+	height: 50px;
+	float: right;
+}
+
+#anadir_contacto {
+	width: 75px;
+	height: 75px;
+	float: left;
+}
+
 .contenedor_central {
 	/*background-color: orange;*/
 	float: left;
