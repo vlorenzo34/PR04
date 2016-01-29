@@ -107,3 +107,68 @@ var validaFormulario=function(){
   devolver = false; 
   return devolver;
 }
+
+//////////////// MAPA CREAR CONTACTO 1/////////////////////
+
+var geocoder;
+      var map;
+      function initialize() {
+        var latlng = new google.maps.LatLng(41.394885, 2.014379);
+        var mapOptions = {
+          zoom: 9,
+          center: latlng,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+      }
+ 
+      function codeAddress() {
+        geocoder = new google.maps.Geocoder();
+        var address = document.getElementById('address').value;
+        geocoder.geocode( { 'address': address}, function(results, status) {
+          if (status == google.maps.GeocoderStatus.OK) {
+            document.getElementById('x').value = results[0].geometry.location.lat().toFixed(6);
+            document.getElementById('y').value = results[0].geometry.location.lng().toFixed(6);
+            map.setCenter(results[0].geometry.location);
+            var marker = new google.maps.Marker({
+                map: map,
+                position: results[0].geometry.location
+            });
+          } else {
+            alert('Geocode was not successful for the following reason: ' + status);
+          }
+        });
+      }
+
+
+//////////////// MAPA CREAR CONTACTO 2/////////////////////
+
+var geocoder2;
+      var map2;
+      function initialize2() {
+        var latlng = new google.maps.LatLng(41.394885, 2.014379);
+        var mapOptions = {
+          zoom: 9,
+          center: latlng,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        map2 = new google.maps.Map(document.getElementById('map_canvas2'), mapOptions);
+      }
+ 
+      function codeAddress2() {
+        geocoder2 = new google.maps.Geocoder();
+        var address2 = document.getElementById('address2').value;
+        geocoder2.geocode( { 'address': address2}, function(results, status) {
+          if (status == google.maps.GeocoderStatus.OK) {
+            document.getElementById('x2').value = results[0].geometry.location.lat().toFixed(6);
+            document.getElementById('y2').value = results[0].geometry.location.lng().toFixed(6);
+            map2.setCenter(results[0].geometry.location);
+            var marker2 = new google.maps.Marker({
+                map: map2,
+                position: results[0].geometry.location
+            });
+          } else {
+            alert('Geocode was not successful for the following reason: ' + status);
+          }
+        });
+      }

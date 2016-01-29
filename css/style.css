@@ -1,4 +1,75 @@
+/*componenetes de crear_contacto.php*/
+
+#map_canvas {
+  height: 80%;
+}
+
+#map_canvas2 {
+  height: 80%;
+}
+
+#wrapper_crear_contacto{
+	width: 1300px;
+	height: 500px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 10px;
+	font-size: 10px;
+}
+
+
+#form_crear_contacto{
+	margin-top: 0%;
+	margin-left: 7%;
+	height: 110%;
+	width: 85%;
+	padding: 2%; 
+	border-radius: 10px;
+}
+
+#form_contenido {
+	margin-top: -2%;
+	height: 100%;
+	width: 33%; 
+	border-radius: 10px;
+}
+
+#zona_mapa1{
+	margin-top: -47%;
+	margin-left: 50%;
+	height: 60%;
+	width: 40%;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#zona_mapa2{
+	margin-bottom: -20%;
+	margin-left: 50%;
+	height: 60%;
+	width: 40%;
+	padding: 5px;
+	border-radius: 5px;
+}
+
 /*componenetes de modificar_perfil.php*/
+
+#wrapper_modificar_perfil{
+	width: 1024px;
+	margin: 0px auto;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 10px;
+	font-size: 13px;
+}
+
+#form_modificar{
+	background-color: #D8D8D8;
+	margin: 0px auto;
+	height: 585px;
+	width: 350px;
+	padding: 5px;
+	border-radius: 10px;
+}
 
 /*componenetes de index.php*/
 
@@ -57,6 +128,8 @@
 	padding: 5px;
 	border-radius: 10px;
 }
+
+/* links */
 
 #link_volver{
 	text-align: right;
